@@ -1,7 +1,10 @@
 # Rostel_UI_test
 Команды для запуска тестов:
-pytest tests_rotel.py - для запуска всех тестов
-pytest -m element_check
+pytest tests_rostel.py - для запуска всех тестов
+pytest -m checkelement tests_rostel.py - для запуска тестов, проверяющих наличие элементов на странице. 
+pytest -m elemenplace tests_rostel.py - для запуска тестов, проверяющих что элемент расположен в правильном блоке.
+pytest -m elementstatus tests_rostel.py - для запуска тестов, проверяющих статус элемента. 
+pytest -m destruction tests_rostel.py - для запуска тестов с негативным сценарием. 
 
 Описание тестовых сценариев. 
 
