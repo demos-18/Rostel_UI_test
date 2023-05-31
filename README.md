@@ -1,4 +1,11 @@
 # Rostel_UI_test
+Файл с тестами расположен по адресу Rostelecom\tests_rostel.py
+Rostelecom\base_pages\base_page.py - файл с основными методами взаимодействия со страницей.
+Rostelecom\custom_waitings\custom_waitings.py - файл с кастомными ожиданиями.
+Rostelecom\page_objects\page_object.py - файл содержащий локаторы элементов и ожидаемых атрибутов. Содержит методы взаимойдействия с элементами страницы. 
+Rostelecom\congtest.py - файл с фикстурой для запуска браузера. 
+
+
 Команды для запуска тестов:
 pytest tests_rostel.py - для запуска всех тестов
 pytest -m checkelement tests_rostel.py - для запуска тестов, проверяющих наличие элементов на странице. 
